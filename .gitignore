@@ -1,0 +1,17 @@
+# secrets — never commit
+*.pem
+*.key
+*.pfx
+*.p12
+# game dumps / copyrighted assets — never commit
+*.dat
+GameAssembly*.dll
+*.so
+*.dll
+# build / deps / logs / os
+bin/
+obj/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
