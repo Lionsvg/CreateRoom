@@ -4,3 +4,12 @@ obj/
 *.user
 .vs/
 artifacts/
+
+# secrets / runtime / dumps (never publish)
+certs/
+*.pem
+*.key
+*.pfx
+*.log
+*.dat
+*.dll
